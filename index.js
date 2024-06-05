@@ -39,9 +39,5 @@ passport.deserializeUser((user, done) => {
 
 // initial google auth login
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT);
-
-// MongoURI = mongodb+srv://sconsultancygroup21:vWYVdEJDVjD0RUQb@cluster-prod.87rvpyq.mongodb.net/cluster-prod?retryWrites=true&w=majority&appName=cluster-prod
-// Client ID = 71810379582-4hd4mqp596ngbjv41m1ujma7tng9s3jq.apps.googleusercontent.com
-// googleClientSecret = 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
